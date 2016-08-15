@@ -1,0 +1,68 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Titillium WebThin'), local('TitilliumWeb-Thin'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr-K9kSItTeDn2USN0q77Oh4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/7XUFZ5tgS-tD6QamInJTcZ_o9VAbKgK36i-4snuAuCM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Titillium WebSemiBold'), local('TitilliumWeb-SemiBold'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wprx3QmhlKDgQgT1VN2Ed1WFo.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(http://themes.googleusercontent.com/static/fonts/pacifico/v5/yunJt0R8tCvMyj_V4xSjaXYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+
+/* 
+ * Nanum Gothic (Korean) http://www.google.com/webfonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot);
+  src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff2) format('woff2'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff) format('woff'),
+       url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.ttf) format('truetype');
+}
+
+@charset "UTF-8";
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url('http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.eot');
+  src: url('http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.eot?#iefix') format('eot'), 
+  url('http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.woff') format('woff'), 
+  url('http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.ttf') format('truetype'), 
+  url('http://weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.svg#FontAwesomeRegular') format('svg');
+}
+		/* fontawesome */
+		[class*="fontawesome-"]:before {
+		  font-family: 'FontAwesome', sans-serif;
+		}
